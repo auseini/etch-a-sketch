@@ -31,7 +31,7 @@ function drawBoard(){
 	clearBoard();
 	gridCount = (+size.textContent)**2;
 	console.log(gridCount);
-	const pixelSize = 840/(+size.textContent);
+	const pixelSize = 780/(+size.textContent);
 	console.log(pixelSize);
 	for(let i = 0; i < gridCount; i++){
 		//create element and give css styling
@@ -60,5 +60,5 @@ function clearColors(){
 }
 //function to color pixel on hover
 function colorPixel(e){
-	e.target.style.background = "white";
+	e.target.style.background = color.value;
 }

@@ -3,7 +3,7 @@ html, body{
 	min-height: 100%;
 }
 h1{
-	height: 155px;
+	height: 120px;
 	margin: 0;
 	font-size: 100px;
 	text-align: center;
@@ -35,8 +35,8 @@ button:active{
 	justify-content: center;
 }
 .board{
-	width: 840px;
-	height: 840px;
+	width: 780px;
+	height: 780px;
 	outline: 2px solid black;	
 	padding: 0px;
 	grid-template-columns: auto auto auto;
@@ -76,6 +76,7 @@ button:active{
 	justify-content: center;
 	font-family: 'Titillium Web', sans-serif;
 	color: rgb(92, 204, 219);
+	margin: 0;
 }
 #wrapper{
 	min-height: 100%;
@@ -84,7 +85,7 @@ button:active{
 	min-width: 100%;
 }
 #header{
-	height: 155px;
+	height: 120px;
 	background: rgb(15, 15, 15);
 	color: rgb(92, 204, 219);
 	display: table;
