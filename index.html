@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Etch-a-Sketch</title>
+<link rel="stylesheet" href="styles.css"/>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap" rel="stylesheet"><body>
+	<header>
+	<div id="header">
+		<h1>Etch-a-Sketch</h1>
+	</div>
+	</header>
+	
+	<main>
+
+	<div id="wrapper">
+
+	<div id="messageArea">
+		<p id="message">Grid Size</p>	
+	</div>
+	<div class="sliderContainer">
+		<input type="range" min="16" max="64" class="slider" id="myRange" value="40"> 
+		<p id="gridSize">40</p>
+	</div>
+
+	<div class="board" id="board">
+		
+	</div>
+	
+	<form class="settingsButtons" onsubmit="return false">
+		<button id="clear" class="settingsButton">Clear</button>
+		<button id="create" class="settingsButton">Create</button>
+		<button id="color" class="settingsButton">Color</button>
+	</form>
+
+	</div>
+
+	</main>
+	
+	<script src="scripts.js"></script>
+</body>
+</html>
